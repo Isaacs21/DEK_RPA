@@ -1,0 +1,652 @@
+ï»¿"ì œëª©","ì‹œì‘ ë‚ ì§œ","ì‹œì‘ ì‹œê°„","ë ë‚ ì§œ","ë ì‹œê°„","í•˜ë£¨ ì¢…ì¼","ë¯¸ë¦¬ ì•Œë¦¼ ì„¤ì •/í•´ì œ","ë¯¸ë¦¬ ì•Œë¦¼ ë‚ ì§œ","ë¯¸ë¦¬ ì•Œë¦¼ ì‹œê°„","ëª¨ì„ ì´ëŒì´","í•„ìˆ˜ ì°¸ì„ì","ì„ íƒ ì°¸ì„ì","ëª¨ì„ ë¦¬ì†ŒìŠ¤","ê±°ë¦¬","ë²”ì£¼ í•­ëª©","ë¹„ìš© ì •ë³´","ì„¤ëª…","ìˆ¨ê¹€","ì‹œê°„ ìƒíƒœ ë³´ê¸°","ìš°ì„  ìˆœìœ„","ìš°í¸ë¬¼ ì¢…ë¥˜","ì¥ì†Œ"
+"[PUS1][UNPLANED] Check the fire control panel","2023-8-24","¿ÀÀü 9:00:00","2023-8-24","¿ÀÀü 11:30:00","False","True","2023-8-24","¿ÀÀü 8:45:00","PUS1 Ops Calendar",,,,,,,"We will check the fire control panel with ESP. 
+Because the DC Battery status light is malfunctioning.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][UNPLANED] Miscellaneous work for invertor panel of water pumps.","2023-8-31","¿ÀÀü 9:00:00","2023-9-1","¿ÀÈÄ 5:00:00","False","True","2023-8-31","¿ÀÀü 8:45:00","PUS1 Ops Calendar",,,,,,,"1.  ìˆœí™˜íŒí”„ìš© ì¸ë²„í„° ì„¤ì¹˜ ê´€ë ¨ ì”ì—¬ ì‘ì—… 
+2.  ì„¤ì¹˜ ì‘ì—… ì™„ë£Œ í›„ ë°©ì¬ì‹¤ ì¸ì› í˜„ì¥ êµìœ¡ ì‹¤ì‹œ ì˜ˆì •
+
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][UNPLANED] Check the refrigerant piping line of CRAC#4.","2023-8-24","¿ÀÈÄ 2:00:00","2023-8-24","¿ÀÈÄ 4:00:00","False","True","2023-8-24","¿ÀÈÄ 1:45:00","PUS1 Ops Calendar",,,,,,,"We are going to check the refrigerant piping line due to the refrigerant leakage of CRAC#4.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1] Replace the door of the equipment entrance","2023-8-17","¿ÀÀü 9:00:00","2023-8-17","¿ÀÈÄ 12:00:00","False","True","2023-8-17","¿ÀÀü 8:45:00","PUS1 Ops Calendar",,,,,,,"We will replace the damaged door of the equipment entrance with a new one.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1] Repair of the fence","2023-8-4","¿ÀÀü 9:00:00","2023-8-4","¿ÀÈÄ 5:00:00","False","True","2023-8-4","¿ÀÀü 8:45:00","PUS1 Ops Calendar",,,,,,,"We will conduct to repair of the fence by ì„¸ì¸í…
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][UNPLANED] Inverter installation for condenser pumps","2023-7-25","¿ÀÀü 12:00:00","2023-8-6","¿ÀÀü 12:00:00","True","True","2023-7-24","¿ÀÀü 6:00:00","PUS1 Ops Calendar",,,,,,,"1. ì¸ë²„í„° ì…ê³  ì˜ˆì •ë‚´ì—­(3ëŒ€ í™•ë³´ ì™„ë£Œ) : ~7/14(ê¸ˆ)
+  - 2ëŒ€ ì…ê³  ì™„ë£Œ
+  - ë‚˜ë¨¸ì§€ 1ëŒ€ 7/14(ê¸ˆ) ì…ê³  ì˜ˆì •
+ 
+2. ì œì‘ íŒë„¬ ë‚´ ì‹œí€€ìŠ¤ íšŒë¡œ êµ¬ì„± : ~7/20(ëª©)
+ 
+3. íŒë„¬ í˜„ì¥ ë°˜ì… ë° ì„¤ì¹˜ì‘ì—… : 7/22(í† ) ~ 7/31(ê¸ˆ)
+ 
+4. ì¸ë²„í„° ì‹œìš´ì „ ë° ì••ë ¥ ì¡°ì •ì‘ì—… : 8/1(í™”) ~ 8/2(ìˆ˜)
+ 
+","False","3","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][UNPALNED] Maintenance of E/V","2023-6-28","¿ÀÀü 9:00:00","2023-6-28","¿ÀÈÄ 5:00:00","False","True","2023-6-28","¿ÀÀü 8:45:00","PUS1 Ops Calendar",,,,,,,"We have a plan to maintain the E/V(customer side)
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][NORMAL] Annual Electrical Safety Inspection","2023-7-1","¿ÀÀü 8:30:00","2023-7-1","¿ÀÈÄ 1:00:00","False","True","2023-7-1","¿ÀÀü 8:15:00","PUS1 Ops Calendar",,,,,,,"PUS1 has the plan to proceed Annual Electrical Safety Inspection by KESCO
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"Monthly FSM","2023-5-31","¿ÀÈÄ 1:30:00","2023-5-31","¿ÀÈÄ 2:30:00","False","True","2023-5-31","¿ÀÈÄ 1:15:00","PUS1 Ops Calendar","BongYong Han;SooChang Park",,,,,,"We will carry out the monthly FMS today. 
+Thank you.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][NORMAL] Fill the diesel for GEN-SET","2023-6-1","¿ÀÀü 10:00:00","2023-6-1","¿ÀÈÄ 12:00:00","False","True","2023-6-1","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"We have a plan to fill the diesel for GEN-SET ( Total 1900 liter )
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[ëƒ‰ë°©ê¸° ì •ë°€ ì ê²€]","2023-5-22","¿ÀÀü 9:00:00","2023-5-24","¿ÀÈÄ 5:00:00","False","True","2023-5-22","¿ÀÀü 8:45:00","PUS1 Ops Calendar",,,,,,,"ëƒ‰ë°©ê¸° ì •ë°€ì ê²€ 
+5/22~5/24
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"1F CRAC input power diversification work","2023-5-17","¿ÀÈÄ 1:00:00","2023-5-17","¿ÀÈÄ 3:00:00","False","True","2023-5-17","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	1F CRAC input power diversification work	Procedure No.	PUS1-MOP-xxx	Risk Level:	Level 2	Frequency	NA	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	1F-CRAC-01, 1F-CRAC-04
+(Sejong Area)	Power source/ Breaker isolated	CRAC Configuration 
+&#8220;2N&#8221;	 
+Description of Work 
+This is a work to solve the problem of the single power supply (LV3-3) of the input power to the 1st floor CRAC.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"Relocation of 1F monitoring panel for 1F equipment","2023-5-15","¿ÀÀü 9:00:00","2023-5-18","¿ÀÈÄ 6:00:00","False","True","2023-5-15","¿ÀÀü 8:45:00","PUS1 Ops Calendar",,,,,,," 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"ISMS by TTA","2023-4-26","¿ÀÀü 10:00:00","2023-4-26","¿ÀÈÄ 5:00:00","False","True","2023-4-26","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,," 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"ISMS by TTA","2023-4-25","¿ÀÀü 10:00:00","2023-4-25","¿ÀÈÄ 5:00:00","False","True","2023-4-25","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,," 
+","False","2","ì¤‘ê°„","ë³´í†µ","1ì¸µ ë¯¸íŒ…ë£¸"
+"PUS1 PUE improvement","2023-4-19","¿ÀÈÄ 3:00:00","2023-4-19","¿ÀÈÄ 3:30:00","False","True","2023-4-19","¿ÀÈÄ 2:45:00","PUS1 Ops Calendar","BongYong Han;SooChang Park;Younghoon Choi",,,,,," 
+________________________________________________________________________________ 
+Microsoft Teams meeting 
+Join on your computer, mobile app or room device 
+Click here to join the meeting 
+Meeting ID: 426 175 222 105 
+Passcode: WbTLQx 
+Download Teams | Join on the web
+Learn More | Meeting options 
+________________________________________________________________________________ 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"seongwoo - PTO","2023-3-31","¿ÀÀü 12:00:00","2023-4-1","¿ÀÀü 12:00:00","True","False","2023-3-30","¿ÀÀü 6:00:00","PUS1 Ops Calendar",,,,,,," 
+","False","3","ì¤‘ê°„","ë³´í†µ",""
+"Dinner with TP","2023-3-22","¿ÀÈÄ 6:00:00","2023-3-22","¿ÀÈÄ 8:00:00","False","True","2023-3-22","¿ÀÈÄ 5:45:00","PUS1 Ops Calendar",,,,,,," 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"FY2023 Performance Targets discussion (PUS1)","2023-3-22","¿ÀÈÄ 3:00:00","2023-3-22","¿ÀÈÄ 4:00:00","False","True","2023-3-22","¿ÀÈÄ 2:45:00","PUS1 Ops Calendar","Thiam Poh Goh;Peter Ham;SooChang Park;BongYong Han",,"PUS1 Meeting Room",,,,"FY2023 Performance Targets discussion (PUS1)
+ 
+________________________________________________________________________________ 
+Microsoft Teams meeting 
+Join on your computer, mobile app or room device 
+Click here to join the meeting 
+Meeting ID: 494 609 721 825 
+Passcode: rVmdmv 
+Download Teams | Join on the web
+Learn More | Meeting options 
+________________________________________________________________________________ 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ","Microsoft Teams Meeting; PUS1 Meeting Room"
+"ì‚¬ë¬´ì—˜ ë°©ë¬¸","2023-4-5","¿ÀÀü 12:00:00","2023-4-6","¿ÀÀü 12:00:00","True","True","2023-4-4","¿ÀÀü 6:00:00","PUS1 Ops Calendar",,,,,,,"ì‚¬ë¬´ì—˜ ë°©ë¬¸
+","False","3","ì¤‘ê°„","ë³´í†µ","SEL1"
+"TP Visit PUS1","2023-3-22","¿ÀÀü 12:00:00","2023-3-23","¿ÀÀü 12:00:00","True","True","2023-3-21","¿ÀÀü 6:00:00",,,,,,,,,"False","3","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Thermal Image measurement work","2023-3-16","¿ÀÈÄ 1:00:00","2023-3-16","¿ÀÈÄ 5:00:00","False","True","2023-3-16","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 Thermal Image measurement work 	Procedure No. 	PUS1-MOP-003 	Risk Level: 	Level 3 	Frequency 	BI-ANNUAL 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	N/A 	Power source/ Breaker isolated 	Power Single Configuration 	 
+Description of Work  
+This is a thermal imaging measurement to detect in advance whether the power facilities (HV, TR, LV) are operating within the normal temperature range, heat caused by specific parts within the facility, defective bus duct joints, and electrical cable wiring defects. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Thermal Image measurement work","2023-9-21","¿ÀÈÄ 1:00:00","2023-9-21","¿ÀÈÄ 5:00:00","False","True","2023-9-21","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 Thermal Image measurement work 	Procedure No. 	PUS1-MOP-003 	Risk Level: 	Level 3 	Frequency 	BI-ANNUAL 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	N/A 	Power source/ Breaker isolated 	Power Single Configuration 	 
+Description of Work  
+This is a thermal imaging measurement to detect in advance whether the power facilities (HV, TR, LV) are operating within the normal temperature range, heat caused by specific parts within the facility, defective bus duct joints, and electrical cable wiring defects. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][NORMAL] Cooling tower & CHWP Inspection","2023-3-23","¿ÀÈÄ 1:00:00","2023-3-25","¿ÀÈÄ 5:00:00","False","True","2023-3-23","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of cooling tower &amp; CWP	Procedure No.	MOP-PUS1-013	Risk Level:	2	Frequency	Quarterly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates quarterly preventive maintenance activity procedures for cooling tower and circulation water pumps in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][NORMAL] Cooling tower & CHWP Inspection","2023-6-22","¿ÀÈÄ 1:00:00","2023-6-24","¿ÀÈÄ 5:00:00","False","True","2023-6-22","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of cooling tower &amp; CWP	Procedure No.	MOP-PUS1-013	Risk Level:	2	Frequency	Quarterly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates quarterly preventive maintenance activity procedures for cooling tower and circulation water pumps in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][NORMAL] Cooling tower & CHWP Inspection","2023-9-28","¿ÀÈÄ 1:00:00","2023-9-30","¿ÀÈÄ 5:00:00","False","True","2023-9-28","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of cooling tower &amp; CWP	Procedure No.	MOP-PUS1-013	Risk Level:	2	Frequency	Quarterly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates quarterly preventive maintenance activity procedures for cooling tower and circulation water pumps in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][NORMAL] Cooling tower & CHWP Inspection","2023-12-28","¿ÀÈÄ 1:00:00","2023-12-30","¿ÀÈÄ 5:00:00","False","True","2023-12-28","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of cooling tower &amp; CWP	Procedure No.	MOP-PUS1-013	Risk Level:	2	Frequency	Quarterly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates quarterly preventive maintenance activity procedures for cooling tower and circulation water pumps in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"soochang - PTO","2023-2-27","¿ÀÀü 12:00:00","2023-3-4","¿ÀÀü 12:00:00","True","True","2023-2-26","¿ÀÀü 6:00:00","PUS1 Ops Calendar",,,,,,," 
+","False","3","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Maintenance of UPS","2023-2-20","¿ÀÀü 9:00:00","2023-2-20","¿ÀÈÄ 5:00:00","False","True","2023-2-20","¿ÀÀü 8:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 UPS Maintenance Contractor Bi-Monthly Inspection 	Procedure No. 	PUS1-MOP-001 	Risk Level: 	Level 3 	Frequency 	Bi-monthly 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	BNK DR Center UPS-01, 02 
+Shinbinet IDC UPS-01,02 
+Pusan Center UPS-01,02 	Power source/ Breaker isolated 	UPS Configuration  
+&#8220;N+1&#8221; 	 
+Description of Work  
+This is a regular inspection activity to determine the operation status of the UPS (input, output, battery charging function, etc.) and whether it is normal for internal important parts. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Generator-01 main control pcb replacement work","2023-2-17","¿ÀÀü 10:00:00","2023-2-17","¿ÀÈÄ 12:00:00","False","True","2023-2-17","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 Generator-01 main control pcb replacement work	Procedure No.	PUS1-MOP-023	Risk Level:	Level 3	Frequency	Repair work(2023.02.17)	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Generator &#8220;N+1&#8221;	 
+Description of Work 
+This work is to investigate the cause and take action on the start up failure of Generator-01.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"Jeongwon PTO","2023-2-13","¿ÀÀü 12:00:00","2023-2-14","¿ÀÀü 12:00:00","True","True","2023-2-12","¿ÀÀü 6:00:00","PUS1 Ops Calendar",,,,,,," 
+","False","3","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] PDF Measuring power usage","2023-2-23","¿ÀÀü 10:00:00","2023-2-23","¿ÀÈÄ 5:00:00","False","True","2023-2-23","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 PDF Measuring power usage	Procedure No.	PUS1-MOP-002	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Power redundancy configuration	 
+Description of Work 
+This work is to check whether the branch circuit of the UPS distribution panel is actually used and whether the load is appropriate compared to the circuit breaker capacity in order to secure the customer's service stability.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] PDF Measuring power usage","2023-3-23","¿ÀÀü 10:00:00","2023-3-23","¿ÀÈÄ 5:00:00","False","True","2023-3-23","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 PDF Measuring power usage	Procedure No.	PUS1-MOP-002	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Power redundancy configuration	 
+Description of Work 
+This work is to check whether the branch circuit of the UPS distribution panel is actually used and whether the load is appropriate compared to the circuit breaker capacity in order to secure the customer's service stability.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] PDF Measuring power usage","2023-4-27","¿ÀÀü 10:00:00","2023-4-27","¿ÀÈÄ 5:00:00","False","True","2023-4-27","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 PDF Measuring power usage	Procedure No.	PUS1-MOP-002	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Power redundancy configuration	 
+Description of Work 
+This work is to check whether the branch circuit of the UPS distribution panel is actually used and whether the load is appropriate compared to the circuit breaker capacity in order to secure the customer's service stability.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] PDF Measuring power usage","2023-5-25","¿ÀÀü 10:00:00","2023-5-25","¿ÀÈÄ 5:00:00","False","True","2023-5-25","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 PDF Measuring power usage	Procedure No.	PUS1-MOP-002	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Power redundancy configuration	 
+Description of Work 
+This work is to check whether the branch circuit of the UPS distribution panel is actually used and whether the load is appropriate compared to the circuit breaker capacity in order to secure the customer's service stability.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] PDF Measuring power usage","2023-6-22","¿ÀÀü 10:00:00","2023-6-22","¿ÀÈÄ 5:00:00","False","True","2023-6-22","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 PDF Measuring power usage	Procedure No.	PUS1-MOP-002	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Power redundancy configuration	 
+Description of Work 
+This work is to check whether the branch circuit of the UPS distribution panel is actually used and whether the load is appropriate compared to the circuit breaker capacity in order to secure the customer's service stability.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] PDF Measuring power usage","2023-7-27","¿ÀÀü 10:00:00","2023-7-27","¿ÀÈÄ 5:00:00","False","True","2023-7-27","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 PDF Measuring power usage	Procedure No.	PUS1-MOP-002	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Power redundancy configuration	 
+Description of Work 
+This work is to check whether the branch circuit of the UPS distribution panel is actually used and whether the load is appropriate compared to the circuit breaker capacity in order to secure the customer's service stability.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] PDF Measuring power usage","2023-8-29","¿ÀÀü 10:00:00","2023-8-29","¿ÀÈÄ 5:00:00","False","False","2023-8-24","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 PDF Measuring power usage	Procedure No.	PUS1-MOP-002	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Power redundancy configuration	 
+Description of Work 
+This work is to check whether the branch circuit of the UPS distribution panel is actually used and whether the load is appropriate compared to the circuit breaker capacity in order to secure the customer's service stability.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] PDF Measuring power usage","2023-9-28","¿ÀÀü 10:00:00","2023-9-28","¿ÀÈÄ 5:00:00","False","True","2023-9-28","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 PDF Measuring power usage	Procedure No.	PUS1-MOP-002	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Power redundancy configuration	 
+Description of Work 
+This work is to check whether the branch circuit of the UPS distribution panel is actually used and whether the load is appropriate compared to the circuit breaker capacity in order to secure the customer's service stability.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] PDF Measuring power usage","2023-10-26","¿ÀÀü 10:00:00","2023-10-26","¿ÀÈÄ 5:00:00","False","True","2023-10-26","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 PDF Measuring power usage	Procedure No.	PUS1-MOP-002	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Power redundancy configuration	 
+Description of Work 
+This work is to check whether the branch circuit of the UPS distribution panel is actually used and whether the load is appropriate compared to the circuit breaker capacity in order to secure the customer's service stability.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] PDF Measuring power usage","2023-11-23","¿ÀÀü 10:00:00","2023-11-23","¿ÀÈÄ 5:00:00","False","True","2023-11-23","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 PDF Measuring power usage	Procedure No.	PUS1-MOP-002	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Power redundancy configuration	 
+Description of Work 
+This work is to check whether the branch circuit of the UPS distribution panel is actually used and whether the load is appropriate compared to the circuit breaker capacity in order to secure the customer's service stability.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] PDF Measuring power usage","2023-12-28","¿ÀÀü 10:00:00","2023-12-28","¿ÀÈÄ 5:00:00","False","True","2023-12-28","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 PDF Measuring power usage	Procedure No.	PUS1-MOP-002	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Power redundancy configuration	 
+Description of Work 
+This work is to check whether the branch circuit of the UPS distribution panel is actually used and whether the load is appropriate compared to the circuit breaker capacity in order to secure the customer's service stability.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] UPS Power Quality Measurement","2023-2-21","¿ÀÀü 10:00:00","2023-2-21","¿ÀÈÄ 6:00:00","False","True","2023-2-21","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 UPS Power Quality Measurement	Procedure No.	PUS1-MOP-022	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BNK DR Center UPS-01, 02
+Shinbinet IDC UPS-01, 02
+Pusan Center UPS-01, 02	Power source/ Breaker isolated	UPS Configuration 
+â€œN+1â€	 
+Description of Work 
+This check is a regular monthly check to accurately measure the UPS's power quality and load capacity.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] UPS Power Quality Measurement","2023-3-21","¿ÀÀü 10:00:00","2023-3-21","¿ÀÈÄ 6:00:00","False","True","2023-3-21","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 UPS Power Quality Measurement	Procedure No.	PUS1-MOP-022	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BNK DR Center UPS-01, 02
+Shinbinet IDC UPS-01, 02
+Pusan Center UPS-01, 02	Power source/ Breaker isolated	UPS Configuration 
+â€œN+1â€	 
+Description of Work 
+This check is a regular monthly check to accurately measure the UPS's power quality and load capacity.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] UPS Power Quality Measurement","2023-4-18","¿ÀÀü 10:00:00","2023-4-18","¿ÀÈÄ 6:00:00","False","True","2023-4-18","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 UPS Power Quality Measurement	Procedure No.	PUS1-MOP-022	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BNK DR Center UPS-01, 02
+Shinbinet IDC UPS-01, 02
+Pusan Center UPS-01, 02	Power source/ Breaker isolated	UPS Configuration 
+â€œN+1â€	 
+Description of Work 
+This check is a regular monthly check to accurately measure the UPS's power quality and load capacity.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] UPS Power Quality Measurement","2023-5-16","¿ÀÀü 10:00:00","2023-5-16","¿ÀÈÄ 6:00:00","False","True","2023-5-16","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 UPS Power Quality Measurement	Procedure No.	PUS1-MOP-022	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BNK DR Center UPS-01, 02
+Shinbinet IDC UPS-01, 02
+Pusan Center UPS-01, 02	Power source/ Breaker isolated	UPS Configuration 
+â€œN+1â€	 
+Description of Work 
+This check is a regular monthly check to accurately measure the UPS's power quality and load capacity.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] UPS Power Quality Measurement","2023-6-20","¿ÀÀü 10:00:00","2023-6-20","¿ÀÈÄ 6:00:00","False","True","2023-6-20","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 UPS Power Quality Measurement	Procedure No.	PUS1-MOP-022	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BNK DR Center UPS-01, 02
+Shinbinet IDC UPS-01, 02
+Pusan Center UPS-01, 02	Power source/ Breaker isolated	UPS Configuration 
+â€œN+1â€	 
+Description of Work 
+This check is a regular monthly check to accurately measure the UPS's power quality and load capacity.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] UPS Power Quality Measurement","2023-7-18","¿ÀÀü 10:00:00","2023-7-18","¿ÀÈÄ 6:00:00","False","True","2023-7-18","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 UPS Power Quality Measurement	Procedure No.	PUS1-MOP-022	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BNK DR Center UPS-01, 02
+Shinbinet IDC UPS-01, 02
+Pusan Center UPS-01, 02	Power source/ Breaker isolated	UPS Configuration 
+â€œN+1â€	 
+Description of Work 
+This check is a regular monthly check to accurately measure the UPS's power quality and load capacity.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] UPS Power Quality Measurement","2023-8-25","¿ÀÀü 10:00:00","2023-8-25","¿ÀÈÄ 3:00:00","False","False","2023-8-15","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 UPS Power Quality Measurement	Procedure No.	PUS1-MOP-022	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BNK DR Center UPS-01, 02
+Shinbinet IDC UPS-01, 02
+Pusan Center UPS-01, 02	Power source/ Breaker isolated	UPS Configuration 
+&#8220;N+1&#8221;	 
+Description of Work 
+This check is a regular monthly check to accurately measure the UPS's power quality and load capacity.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] UPS Power Quality Measurement","2023-9-19","¿ÀÀü 10:00:00","2023-9-19","¿ÀÈÄ 6:00:00","False","True","2023-9-19","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 UPS Power Quality Measurement	Procedure No.	PUS1-MOP-022	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BNK DR Center UPS-01, 02
+Shinbinet IDC UPS-01, 02
+Pusan Center UPS-01, 02	Power source/ Breaker isolated	UPS Configuration 
+â€œN+1â€	 
+Description of Work 
+This check is a regular monthly check to accurately measure the UPS's power quality and load capacity.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] UPS Power Quality Measurement","2023-10-17","¿ÀÀü 10:00:00","2023-10-17","¿ÀÈÄ 6:00:00","False","True","2023-10-17","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 UPS Power Quality Measurement	Procedure No.	PUS1-MOP-022	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BNK DR Center UPS-01, 02
+Shinbinet IDC UPS-01, 02
+Pusan Center UPS-01, 02	Power source/ Breaker isolated	UPS Configuration 
+â€œN+1â€	 
+Description of Work 
+This check is a regular monthly check to accurately measure the UPS's power quality and load capacity.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] UPS Power Quality Measurement","2023-11-21","¿ÀÀü 10:00:00","2023-11-21","¿ÀÈÄ 6:00:00","False","True","2023-11-21","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 UPS Power Quality Measurement	Procedure No.	PUS1-MOP-022	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BNK DR Center UPS-01, 02
+Shinbinet IDC UPS-01, 02
+Pusan Center UPS-01, 02	Power source/ Breaker isolated	UPS Configuration 
+â€œN+1â€	 
+Description of Work 
+This check is a regular monthly check to accurately measure the UPS's power quality and load capacity.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] UPS Power Quality Measurement","2023-12-19","¿ÀÀü 10:00:00","2023-12-19","¿ÀÈÄ 6:00:00","False","True","2023-12-19","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 UPS Power Quality Measurement	Procedure No.	PUS1-MOP-022	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BNK DR Center UPS-01, 02
+Shinbinet IDC UPS-01, 02
+Pusan Center UPS-01, 02	Power source/ Breaker isolated	UPS Configuration 
+â€œN+1â€	 
+Description of Work 
+This check is a regular monthly check to accurately measure the UPS's power quality and load capacity.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of diesel tank and storage tank.","2023-2-22","¿ÀÈÄ 1:00:00","2023-2-22","¿ÀÈÄ 2:00:00","False","True","2023-2-22","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 Diesel fuel day &amp; Storage tank inspection 	Procedure No. 	PUS1-MOP-010 	Risk Level: 	 	Frequency 	Monthly 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	N/A 	Power source/ Breaker isolated 	N/A 	 
+Description of Work  
+The purpose of this inspection is to check the main fuel tank for oil supply to the generator (18,500 liters) and the daily fuel tank (970 liters) for leakage, the amount of residual fuel, and the risk factors inside the oil tank room. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of diesel tank and storage tank.","2023-3-22","¿ÀÈÄ 1:00:00","2023-3-22","¿ÀÈÄ 2:00:00","False","True","2023-3-22","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 Diesel fuel day &amp; Storage tank inspection 	Procedure No. 	PUS1-MOP-010 	Risk Level: 	 	Frequency 	Monthly 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	N/A 	Power source/ Breaker isolated 	N/A 	 
+Description of Work  
+The purpose of this inspection is to check the main fuel tank for oil supply to the generator (18,500 liters) and the daily fuel tank (970 liters) for leakage, the amount of residual fuel, and the risk factors inside the oil tank room. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of diesel tank and storage tank.","2023-4-26","¿ÀÈÄ 1:00:00","2023-4-26","¿ÀÈÄ 2:00:00","False","True","2023-4-26","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 Diesel fuel day &amp; Storage tank inspection 	Procedure No. 	PUS1-MOP-010 	Risk Level: 	 	Frequency 	Monthly 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	N/A 	Power source/ Breaker isolated 	N/A 	 
+Description of Work  
+The purpose of this inspection is to check the main fuel tank for oil supply to the generator (18,500 liters) and the daily fuel tank (970 liters) for leakage, the amount of residual fuel, and the risk factors inside the oil tank room. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of diesel tank and storage tank.","2023-5-24","¿ÀÈÄ 1:00:00","2023-5-24","¿ÀÈÄ 2:00:00","False","True","2023-5-24","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 Diesel fuel day &amp; Storage tank inspection 	Procedure No. 	PUS1-MOP-010 	Risk Level: 	 	Frequency 	Monthly 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	N/A 	Power source/ Breaker isolated 	N/A 	 
+Description of Work  
+The purpose of this inspection is to check the main fuel tank for oil supply to the generator (18,500 liters) and the daily fuel tank (970 liters) for leakage, the amount of residual fuel, and the risk factors inside the oil tank room. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of diesel tank and storage tank.","2023-6-28","¿ÀÈÄ 1:00:00","2023-6-28","¿ÀÈÄ 2:00:00","False","True","2023-6-28","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 Diesel fuel day &amp; Storage tank inspection 	Procedure No. 	PUS1-MOP-010 	Risk Level: 	 	Frequency 	Monthly 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	N/A 	Power source/ Breaker isolated 	N/A 	 
+Description of Work  
+The purpose of this inspection is to check the main fuel tank for oil supply to the generator (18,500 liters) and the daily fuel tank (970 liters) for leakage, the amount of residual fuel, and the risk factors inside the oil tank room. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of diesel tank and storage tank.","2023-7-26","¿ÀÈÄ 1:00:00","2023-7-26","¿ÀÈÄ 2:00:00","False","True","2023-7-26","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 Diesel fuel day &amp; Storage tank inspection 	Procedure No. 	PUS1-MOP-010 	Risk Level: 	 	Frequency 	Monthly 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	N/A 	Power source/ Breaker isolated 	N/A 	 
+Description of Work  
+The purpose of this inspection is to check the main fuel tank for oil supply to the generator (18,500 liters) and the daily fuel tank (970 liters) for leakage, the amount of residual fuel, and the risk factors inside the oil tank room. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of diesel tank and storage tank.","2023-8-23","¿ÀÈÄ 1:00:00","2023-8-23","¿ÀÈÄ 2:00:00","False","True","2023-8-23","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 Diesel fuel day &amp; Storage tank inspection 	Procedure No. 	PUS1-MOP-010 	Risk Level: 	 	Frequency 	Monthly 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	N/A 	Power source/ Breaker isolated 	N/A 	 
+Description of Work  
+The purpose of this inspection is to check the main fuel tank for oil supply to the generator (18,500 liters) and the daily fuel tank (970 liters) for leakage, the amount of residual fuel, and the risk factors inside the oil tank room. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of diesel tank and storage tank.","2023-9-27","¿ÀÈÄ 1:00:00","2023-9-27","¿ÀÈÄ 2:00:00","False","True","2023-9-27","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 Diesel fuel day &amp; Storage tank inspection 	Procedure No. 	PUS1-MOP-010 	Risk Level: 	 	Frequency 	Monthly 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	N/A 	Power source/ Breaker isolated 	N/A 	 
+Description of Work  
+The purpose of this inspection is to check the main fuel tank for oil supply to the generator (18,500 liters) and the daily fuel tank (970 liters) for leakage, the amount of residual fuel, and the risk factors inside the oil tank room. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of diesel tank and storage tank.","2023-10-25","¿ÀÈÄ 1:00:00","2023-10-25","¿ÀÈÄ 2:00:00","False","True","2023-10-25","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 Diesel fuel day &amp; Storage tank inspection 	Procedure No. 	PUS1-MOP-010 	Risk Level: 	 	Frequency 	Monthly 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	N/A 	Power source/ Breaker isolated 	N/A 	 
+Description of Work  
+The purpose of this inspection is to check the main fuel tank for oil supply to the generator (18,500 liters) and the daily fuel tank (970 liters) for leakage, the amount of residual fuel, and the risk factors inside the oil tank room. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of diesel tank and storage tank.","2023-11-22","¿ÀÈÄ 1:00:00","2023-11-22","¿ÀÈÄ 2:00:00","False","True","2023-11-22","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 Diesel fuel day &amp; Storage tank inspection 	Procedure No. 	PUS1-MOP-010 	Risk Level: 	 	Frequency 	Monthly 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	N/A 	Power source/ Breaker isolated 	N/A 	 
+Description of Work  
+The purpose of this inspection is to check the main fuel tank for oil supply to the generator (18,500 liters) and the daily fuel tank (970 liters) for leakage, the amount of residual fuel, and the risk factors inside the oil tank room. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of diesel tank and storage tank.","2023-12-27","¿ÀÈÄ 1:00:00","2023-12-27","¿ÀÈÄ 2:00:00","False","True","2023-12-27","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title: 	PUS1 Diesel fuel day &amp; Storage tank inspection 	Procedure No. 	PUS1-MOP-010 	Risk Level: 	 	Frequency 	Monthly 	Owner: 	PUS1 Facility Operations 	Revision: 	Rev 0.1 	Equipment Affected: 	N/A 	Power source/ Breaker isolated 	N/A 	 
+Description of Work  
+The purpose of this inspection is to check the main fuel tank for oil supply to the generator (18,500 liters) and the daily fuel tank (970 liters) for leakage, the amount of residual fuel, and the risk factors inside the oil tank room. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Operation test of GEN-SET","2023-2-16","¿ÀÈÄ 1:00:00","2023-2-16","¿ÀÈÄ 2:00:00","False","True","2023-2-16","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 Generators start up testwork	Procedure No.	PUS1-MOP-007	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Generators Redundancy Configuration	 
+Description of Work 
+This work is a regular monthly inspection to check the test operation status of generators 1 and 2 in no-load condition.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Operation test of GEN-SET","2023-3-16","¿ÀÈÄ 1:00:00","2023-3-16","¿ÀÈÄ 2:00:00","False","True","2023-3-16","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 Generators start up testwork	Procedure No.	PUS1-MOP-007	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Generators Redundancy Configuration	 
+Description of Work 
+This work is a regular monthly inspection to check the test operation status of generators 1 and 2 in no-load condition.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Operation test of GEN-SET","2023-4-20","¿ÀÈÄ 1:00:00","2023-4-20","¿ÀÈÄ 2:00:00","False","True","2023-4-20","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 Generators start up testwork	Procedure No.	PUS1-MOP-007	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Generators Redundancy Configuration	 
+Description of Work 
+This work is a regular monthly inspection to check the test operation status of generators 1 and 2 in no-load condition.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Operation test of GEN-SET","2023-5-18","¿ÀÈÄ 1:00:00","2023-5-18","¿ÀÈÄ 2:00:00","False","True","2023-5-18","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 Generators start up testwork	Procedure No.	PUS1-MOP-007	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Generators Redundancy Configuration	 
+Description of Work 
+This work is a regular monthly inspection to check the test operation status of generators 1 and 2 in no-load condition.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Operation test of GEN-SET","2023-6-15","¿ÀÈÄ 1:00:00","2023-6-15","¿ÀÈÄ 2:00:00","False","True","2023-6-15","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 Generators start up testwork	Procedure No.	PUS1-MOP-007	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Generators Redundancy Configuration	 
+Description of Work 
+This work is a regular monthly inspection to check the test operation status of generators 1 and 2 in no-load condition.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Operation test of GEN-SET","2023-7-20","¿ÀÈÄ 1:00:00","2023-7-20","¿ÀÈÄ 2:00:00","False","True","2023-7-20","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 Generators start up testwork	Procedure No.	PUS1-MOP-007	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Generators Redundancy Configuration	 
+Description of Work 
+This work is a regular monthly inspection to check the test operation status of generators 1 and 2 in no-load condition.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Operation test of GEN-SET","2023-8-9","¿ÀÀü 10:00:00","2023-8-9","¿ÀÀü 11:00:00","False","False","2023-8-17","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 Generators start up testwork	Procedure No.	PUS1-MOP-007	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Generators Redundancy Configuration	 
+Description of Work 
+This work is a regular monthly inspection to check the test operation status of generators 1 and 2 in no-load condition.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Operation test of GEN-SET","2023-9-21","¿ÀÈÄ 1:00:00","2023-9-21","¿ÀÈÄ 2:00:00","False","True","2023-9-21","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 Generators start up testwork	Procedure No.	PUS1-MOP-007	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Generators Redundancy Configuration	 
+Description of Work 
+This work is a regular monthly inspection to check the test operation status of generators 1 and 2 in no-load condition.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Operation test of GEN-SET","2023-10-19","¿ÀÈÄ 1:00:00","2023-10-19","¿ÀÈÄ 2:00:00","False","True","2023-10-19","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 Generators start up testwork	Procedure No.	PUS1-MOP-007	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Generators Redundancy Configuration	 
+Description of Work 
+This work is a regular monthly inspection to check the test operation status of generators 1 and 2 in no-load condition.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Operation test of GEN-SET","2023-11-16","¿ÀÈÄ 1:00:00","2023-11-16","¿ÀÈÄ 2:00:00","False","True","2023-11-16","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 Generators start up testwork	Procedure No.	PUS1-MOP-007	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Generators Redundancy Configuration	 
+Description of Work 
+This work is a regular monthly inspection to check the test operation status of generators 1 and 2 in no-load condition.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Operation test of GEN-SET","2023-12-21","¿ÀÈÄ 1:00:00","2023-12-21","¿ÀÈÄ 2:00:00","False","True","2023-12-21","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	PUS1 Generators start up testwork	Procedure No.	PUS1-MOP-007	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	Generators Redundancy Configuration	 
+Description of Work 
+This work is a regular monthly inspection to check the test operation status of generators 1 and 2 in no-load condition.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of FSM site work.","2023-2-24","¿ÀÈÄ 1:00:00","2023-2-24","¿ÀÈÄ 4:00:00","False","True","2023-2-24","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire safety management site walk and inspection.	Procedure No.	MOP-PUS1-020	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is fire safety management site walk and inspection in PUS1. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of FSM site work.","2023-3-24","¿ÀÈÄ 1:00:00","2023-3-24","¿ÀÈÄ 4:00:00","False","True","2023-3-24","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire safety management site walk and inspection.	Procedure No.	MOP-PUS1-020	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is fire safety management site walk and inspection in PUS1. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of FSM site work.","2023-4-28","¿ÀÈÄ 1:00:00","2023-4-28","¿ÀÈÄ 4:00:00","False","True","2023-4-28","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire safety management site walk and inspection.	Procedure No.	MOP-PUS1-020	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is fire safety management site walk and inspection in PUS1. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of FSM site work.","2023-5-26","¿ÀÈÄ 1:00:00","2023-5-26","¿ÀÈÄ 4:00:00","False","True","2023-5-26","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire safety management site walk and inspection.	Procedure No.	MOP-PUS1-020	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is fire safety management site walk and inspection in PUS1. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of FSM site work.","2023-6-23","¿ÀÈÄ 1:00:00","2023-6-23","¿ÀÈÄ 4:00:00","False","True","2023-6-23","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire safety management site walk and inspection.	Procedure No.	MOP-PUS1-020	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is fire safety management site walk and inspection in PUS1. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of FSM site work.","2023-7-28","¿ÀÈÄ 1:00:00","2023-7-28","¿ÀÈÄ 4:00:00","False","True","2023-7-28","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire safety management site walk and inspection.	Procedure No.	MOP-PUS1-020	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is fire safety management site walk and inspection in PUS1. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of FSM site work.","2023-8-31","¿ÀÈÄ 1:00:00","2023-8-31","¿ÀÈÄ 4:00:00","False","False","2023-8-25","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire safety management site walk and inspection.	Procedure No.	MOP-PUS1-020	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is fire safety management site walk and inspection in PUS1. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of FSM site work.","2023-9-22","¿ÀÈÄ 1:00:00","2023-9-22","¿ÀÈÄ 4:00:00","False","True","2023-9-22","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire safety management site walk and inspection.	Procedure No.	MOP-PUS1-020	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is fire safety management site walk and inspection in PUS1. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of FSM site work.","2023-10-27","¿ÀÈÄ 1:00:00","2023-10-27","¿ÀÈÄ 4:00:00","False","True","2023-10-27","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire safety management site walk and inspection.	Procedure No.	MOP-PUS1-020	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is fire safety management site walk and inspection in PUS1. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of FSM site work.","2023-11-24","¿ÀÈÄ 1:00:00","2023-11-24","¿ÀÈÄ 4:00:00","False","True","2023-11-24","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire safety management site walk and inspection.	Procedure No.	MOP-PUS1-020	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is fire safety management site walk and inspection in PUS1. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of FSM site work.","2023-12-22","¿ÀÈÄ 1:00:00","2023-12-22","¿ÀÈÄ 4:00:00","False","True","2023-12-22","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire safety management site walk and inspection.	Procedure No.	MOP-PUS1-020	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	N/A	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is fire safety management site walk and inspection in PUS1. 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of E/V","2023-2-15","¿ÀÀü 9:30:00","2023-2-15","¿ÀÈÄ 12:00:00","False","True","2023-2-15","¿ÀÀü 9:15:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of elevators	Procedure No.	MOP-PUS1-017	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates monthly preventive maintenance activity procedures for E/V in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of E/V","2023-3-15","¿ÀÀü 9:30:00","2023-3-15","¿ÀÈÄ 12:00:00","False","True","2023-3-15","¿ÀÀü 9:15:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of elevators	Procedure No.	MOP-PUS1-017	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates monthly preventive maintenance activity procedures for E/V in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of E/V","2023-4-19","¿ÀÀü 9:30:00","2023-4-19","¿ÀÈÄ 12:00:00","False","True","2023-4-19","¿ÀÀü 9:15:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of elevators	Procedure No.	MOP-PUS1-017	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates monthly preventive maintenance activity procedures for E/V in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of E/V","2023-5-17","¿ÀÀü 9:30:00","2023-5-17","¿ÀÈÄ 12:00:00","False","True","2023-5-17","¿ÀÀü 9:15:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of elevators	Procedure No.	MOP-PUS1-017	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates monthly preventive maintenance activity procedures for E/V in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of E/V","2023-6-21","¿ÀÀü 9:30:00","2023-6-21","¿ÀÈÄ 12:00:00","False","True","2023-6-21","¿ÀÀü 9:15:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of elevators	Procedure No.	MOP-PUS1-017	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates monthly preventive maintenance activity procedures for E/V in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of E/V","2023-7-19","¿ÀÀü 9:30:00","2023-7-19","¿ÀÈÄ 12:00:00","False","True","2023-7-19","¿ÀÀü 9:15:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of elevators	Procedure No.	MOP-PUS1-017	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates monthly preventive maintenance activity procedures for E/V in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of E/V","2023-8-16","¿ÀÀü 9:30:00","2023-8-16","¿ÀÈÄ 12:00:00","False","True","2023-8-16","¿ÀÀü 9:15:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of elevators	Procedure No.	MOP-PUS1-017	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates monthly preventive maintenance activity procedures for E/V in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of E/V","2023-9-20","¿ÀÀü 9:30:00","2023-9-20","¿ÀÈÄ 12:00:00","False","True","2023-9-20","¿ÀÀü 9:15:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of elevators	Procedure No.	MOP-PUS1-017	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates monthly preventive maintenance activity procedures for E/V in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of E/V","2023-10-18","¿ÀÀü 9:30:00","2023-10-18","¿ÀÈÄ 12:00:00","False","True","2023-10-18","¿ÀÀü 9:15:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of elevators	Procedure No.	MOP-PUS1-017	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates monthly preventive maintenance activity procedures for E/V in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of E/V","2023-11-15","¿ÀÀü 9:30:00","2023-11-15","¿ÀÈÄ 12:00:00","False","True","2023-11-15","¿ÀÀü 9:15:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of elevators	Procedure No.	MOP-PUS1-017	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates monthly preventive maintenance activity procedures for E/V in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of E/V","2023-12-20","¿ÀÀü 9:30:00","2023-12-20","¿ÀÈÄ 12:00:00","False","True","2023-12-20","¿ÀÀü 9:15:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of elevators	Procedure No.	MOP-PUS1-017	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates monthly preventive maintenance activity procedures for E/V in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of the fire extinguisher.","2023-2-24","¿ÀÀü 10:00:00","2023-2-24","¿ÀÈÄ 5:00:00","False","True","2023-2-24","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire extinguisher
+(pre-action &amp; building system)	Procedure No.	MOP-PUS1-018	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is visual inspection of fire extinguisher(pre-action &amp; building system) in PUS1. 
+No service problems during operation  
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of the fire extinguisher.","2023-3-24","¿ÀÀü 10:00:00","2023-3-24","¿ÀÈÄ 5:00:00","False","True","2023-3-24","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire extinguisher
+(pre-action &amp; building system)	Procedure No.	MOP-PUS1-018	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is visual inspection of fire extinguisher(pre-action &amp; building system) in PUS1. 
+No service problems during operation  
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of the fire extinguisher.","2023-4-28","¿ÀÀü 10:00:00","2023-4-28","¿ÀÈÄ 5:00:00","False","True","2023-4-28","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire extinguisher
+(pre-action &amp; building system)	Procedure No.	MOP-PUS1-018	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is visual inspection of fire extinguisher(pre-action &amp; building system) in PUS1. 
+No service problems during operation  
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of the fire extinguisher.","2023-5-26","¿ÀÀü 10:00:00","2023-5-26","¿ÀÈÄ 5:00:00","False","True","2023-5-26","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire extinguisher
+(pre-action &amp; building system)	Procedure No.	MOP-PUS1-018	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is visual inspection of fire extinguisher(pre-action &amp; building system) in PUS1. 
+No service problems during operation  
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of the fire extinguisher.","2023-6-23","¿ÀÀü 10:00:00","2023-6-23","¿ÀÈÄ 5:00:00","False","True","2023-6-23","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire extinguisher
+(pre-action &amp; building system)	Procedure No.	MOP-PUS1-018	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is visual inspection of fire extinguisher(pre-action &amp; building system) in PUS1. 
+No service problems during operation  
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of the fire extinguisher.","2023-7-28","¿ÀÀü 10:00:00","2023-7-28","¿ÀÈÄ 5:00:00","False","True","2023-7-28","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire extinguisher
+(pre-action &amp; building system)	Procedure No.	MOP-PUS1-018	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is visual inspection of fire extinguisher(pre-action &amp; building system) in PUS1. 
+No service problems during operation  
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of the fire extinguisher.","2023-8-25","¿ÀÀü 10:00:00","2023-8-25","¿ÀÈÄ 5:00:00","False","True","2023-8-25","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire extinguisher
+(pre-action &amp; building system)	Procedure No.	MOP-PUS1-018	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is visual inspection of fire extinguisher(pre-action &amp; building system) in PUS1. 
+No service problems during operation  
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of the fire extinguisher.","2023-9-22","¿ÀÀü 10:00:00","2023-9-22","¿ÀÈÄ 5:00:00","False","True","2023-9-22","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire extinguisher
+(pre-action &amp; building system)	Procedure No.	MOP-PUS1-018	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is visual inspection of fire extinguisher(pre-action &amp; building system) in PUS1. 
+No service problems during operation  
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of the fire extinguisher.","2023-10-27","¿ÀÀü 10:00:00","2023-10-27","¿ÀÈÄ 5:00:00","False","True","2023-10-27","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire extinguisher
+(pre-action &amp; building system)	Procedure No.	MOP-PUS1-018	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is visual inspection of fire extinguisher(pre-action &amp; building system) in PUS1. 
+No service problems during operation  
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of the fire extinguisher.","2023-11-24","¿ÀÀü 10:00:00","2023-11-24","¿ÀÈÄ 5:00:00","False","True","2023-11-24","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire extinguisher
+(pre-action &amp; building system)	Procedure No.	MOP-PUS1-018	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is visual inspection of fire extinguisher(pre-action &amp; building system) in PUS1. 
+No service problems during operation  
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of the fire extinguisher.","2023-12-22","¿ÀÀü 10:00:00","2023-12-22","¿ÀÈÄ 5:00:00","False","True","2023-12-22","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Fire extinguisher
+(pre-action &amp; building system)	Procedure No.	MOP-PUS1-018	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, Facility operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This activity is visual inspection of fire extinguisher(pre-action &amp; building system) in PUS1. 
+No service problems during operation  
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspection of AED","2023-2-8","¿ÀÀü 10:00:00","2023-2-8","¿ÀÀü 11:00:00","False","True","2023-2-8","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Title:	Inspection of AED	Procedure No.	MOP-PUS1-022	Risk Level:	 	Frequency	Monthly	Owner:	PUS1, site operations	Revision:	Rev 0.1	Equipment Affected:	 	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This MOP stipulates monthly preventive maintenance activity procedures for AED in PUS1.
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspcetion of BMS & FMS(Including water leakage detection)","2023-2-6","¿ÀÈÄ 1:00:00","2023-2-6","¿ÀÈÄ 5:00:00","False","True","2023-2-6","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 Inspcetion of BMS &amp; FMS(Including water leakage detection)	Procedure No.	PUS1-MOP-016	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BMS(Elec, Mech) &amp; FMS	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This work is a monthly routine check for monitoring status and alarm activation checks for facility operations of BMS and FMS..
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspcetion of BMS & FMS(Including water leakage detection)","2023-3-6","¿ÀÈÄ 1:00:00","2023-3-6","¿ÀÈÄ 5:00:00","False","True","2023-3-6","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 Inspcetion of BMS &amp; FMS(Including water leakage detection)	Procedure No.	PUS1-MOP-016	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BMS(Elec, Mech) &amp; FMS	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This work is a monthly routine check for monitoring status and alarm activation checks for facility operations of BMS and FMS..
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspcetion of BMS & FMS(Including water leakage detection)","2023-4-3","¿ÀÈÄ 1:00:00","2023-4-3","¿ÀÈÄ 5:00:00","False","True","2023-4-3","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 Inspcetion of BMS &amp; FMS(Including water leakage detection)	Procedure No.	PUS1-MOP-016	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BMS(Elec, Mech) &amp; FMS	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This work is a monthly routine check for monitoring status and alarm activation checks for facility operations of BMS and FMS..
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspcetion of BMS & FMS(Including water leakage detection)","2023-5-1","¿ÀÈÄ 1:00:00","2023-5-1","¿ÀÈÄ 5:00:00","False","True","2023-5-1","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 Inspcetion of BMS &amp; FMS(Including water leakage detection)	Procedure No.	PUS1-MOP-016	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BMS(Elec, Mech) &amp; FMS	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This work is a monthly routine check for monitoring status and alarm activation checks for facility operations of BMS and FMS..
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspcetion of BMS & FMS(Including water leakage detection)","2023-6-5","¿ÀÈÄ 1:00:00","2023-6-5","¿ÀÈÄ 5:00:00","False","True","2023-6-5","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 Inspcetion of BMS &amp; FMS(Including water leakage detection)	Procedure No.	PUS1-MOP-016	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BMS(Elec, Mech) &amp; FMS	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This work is a monthly routine check for monitoring status and alarm activation checks for facility operations of BMS and FMS..
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspcetion of BMS & FMS(Including water leakage detection)","2023-7-3","¿ÀÈÄ 1:00:00","2023-7-3","¿ÀÈÄ 5:00:00","False","True","2023-7-3","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 Inspcetion of BMS &amp; FMS(Including water leakage detection)	Procedure No.	PUS1-MOP-016	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BMS(Elec, Mech) &amp; FMS	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This work is a monthly routine check for monitoring status and alarm activation checks for facility operations of BMS and FMS..
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspcetion of BMS & FMS(Including water leakage detection)","2023-8-18","¿ÀÈÄ 1:00:00","2023-8-18","¿ÀÈÄ 3:00:00","False","False","2023-8-7","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 Inspcetion of BMS &amp; FMS(Including water leakage detection)	Procedure No.	PUS1-MOP-016	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BMS(Elec, Mech) &amp; FMS	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This work is a monthly routine check for monitoring status and alarm activation checks for facility operations of BMS and FMS..
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspcetion of BMS & FMS(Including water leakage detection)","2023-9-4","¿ÀÈÄ 1:00:00","2023-9-4","¿ÀÈÄ 5:00:00","False","True","2023-9-4","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 Inspcetion of BMS &amp; FMS(Including water leakage detection)	Procedure No.	PUS1-MOP-016	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BMS(Elec, Mech) &amp; FMS	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This work is a monthly routine check for monitoring status and alarm activation checks for facility operations of BMS and FMS..
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspcetion of BMS & FMS(Including water leakage detection)","2023-10-2","¿ÀÈÄ 1:00:00","2023-10-2","¿ÀÈÄ 5:00:00","False","True","2023-10-2","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 Inspcetion of BMS &amp; FMS(Including water leakage detection)	Procedure No.	PUS1-MOP-016	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BMS(Elec, Mech) &amp; FMS	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This work is a monthly routine check for monitoring status and alarm activation checks for facility operations of BMS and FMS..
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspcetion of BMS & FMS(Including water leakage detection)","2023-11-6","¿ÀÈÄ 1:00:00","2023-11-6","¿ÀÈÄ 5:00:00","False","True","2023-11-6","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 Inspcetion of BMS &amp; FMS(Including water leakage detection)	Procedure No.	PUS1-MOP-016	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BMS(Elec, Mech) &amp; FMS	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This work is a monthly routine check for monitoring status and alarm activation checks for facility operations of BMS and FMS..
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"[PUS1][Normal] Inspcetion of BMS & FMS(Including water leakage detection)","2023-12-4","¿ÀÈÄ 1:00:00","2023-12-4","¿ÀÈÄ 5:00:00","False","True","2023-12-4","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,," 
+Title:	PUS1 Inspcetion of BMS &amp; FMS(Including water leakage detection)	Procedure No.	PUS1-MOP-016	Risk Level:	Level 3	Frequency	Monthly	Owner:	PUS1 Facility Operations	Revision:	Rev 0.1	Equipment Affected:	BMS(Elec, Mech) &amp; FMS	Power source/ Breaker isolated	N/A	 
+Description of Work 
+This work is a monthly routine check for monitoring status and alarm activation checks for facility operations of BMS and FMS..
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"PUS1 retrofit_Site survey by Design engineers","2023-2-6","¿ÀÀü 12:00:00","2023-2-9","¿ÀÀü 12:00:00","True","True","2023-2-5","¿ÀÀü 6:00:00","PUS1 Ops Calendar",,,,,,," 
+","False","3","ì¤‘ê°„","ë³´í†µ",""
+"(FM) Monthly operation test of GENSET.","2023-1-12","¿ÀÈÄ 1:00:00","2023-1-12","¿ÀÈÄ 2:30:00","False","True","2023-1-12","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Monthly operation test of GENSET.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"(FM) E/V Monthly regular inspection","2023-1-11","¿ÀÀü 10:00:00","2023-1-11","¿ÀÈÄ 12:00:00","False","True","2023-1-11","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"E/V Monthly regular inspection
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"(FM) Check the voltage and current of each PUD on UPS.","2023-1-25","¿ÀÀü 10:00:00","2023-1-25","¿ÀÈÄ 4:00:00","False","True","2023-1-25","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Check the voltage and current of each PUD on UPS.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"(FM) Check the power quality of UPS system.","2023-1-19","¿ÀÀü 10:00:00","2023-1-19","¿ÀÈÄ 2:00:00","False","True","2023-1-19","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Check the power quality of UPS system.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"(FM) Leak detector sensor operation test of the CRAC system. ","2023-1-18","¿ÀÈÄ 1:00:00","2023-1-18","¿ÀÈÄ 4:00:00","False","True","2023-1-18","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Leak detector sensor operation test of the CRAC system.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"(FM) Resistance and voltage measurement of the battery of UPS.","2023-1-10","¿ÀÀü 9:00:00","2023-1-11","¿ÀÈÄ 4:00:00","False","True","2023-1-10","¿ÀÀü 8:45:00","PUS1 Ops Calendar",,,,,,,"Resistance and voltage measurement of the battery of UPS.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"(FM) Replacing the compressor of the outdoor unit","2023-1-16","¿ÀÈÄ 1:00:00","2023-1-16","¿ÀÈÄ 5:00:00","False","True","2023-1-16","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"Replacing the compressor of the outdoor unit. (BNK NO.2)
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"(FM) Cylinder cleaning of CRAC","2023-1-17","¿ÀÀü 10:00:00","2023-1-17","¿ÀÈÄ 2:00:00","False","True","2023-1-17","¿ÀÀü 9:45:00","PUS1 Ops Calendar",,,,,,,"Cylinder cleaning of CRAC system. 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"PUS1 team introduction with Peter","2023-1-11","¿ÀÈÄ 1:00:00","2023-1-11","¿ÀÈÄ 2:00:00","False","True","2023-1-11","¿ÀÈÄ 12:45:00","PUS1 Ops Calendar",,,,,,,"13:00 - 14:00	Introduction to PUS1 Ops team	Peter, SooChang &amp; PUS1 Ops	 
+Please welcome Peter as new Ops director.
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"PUS1 site tour","2023-1-11","¿ÀÈÄ 2:00:00","2023-1-11","¿ÀÈÄ 3:00:00","False","True","2023-1-11","¿ÀÈÄ 1:45:00","PUS1 Ops Calendar","Thiam Poh Goh;Peter Ham;KhaRam Lee;SooChang Park;BongYong Han",,,,,,"PUS1 site tour
+ 
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ",""
+"PUS1 Retrofit brief & discussion","2023-1-11","¿ÀÈÄ 3:00:00","2023-1-11","¿ÀÈÄ 4:00:00","False","True","2023-1-11","¿ÀÈÄ 2:45:00","PUS1 Ops Calendar","KhaRam Lee;Peter Ham;SooChang Park;BongYong Han;Thiam Poh Goh","Chulho Hyun","PUS1 Meeting Room",,,,"PUS1 Retrofit brief &amp; discussion
+ 
+ <https://digitaledgeasia.sharepoint.com/:f:/s/kr-ops/Ejq36IPWvY5MgCGLqMhndP8BD6OsdWAUbt4OOQzf3lZscw?e=mczvAC>   PUS1 Retrofit
+ 
+","False","2","ì¤‘ê°„","ë³´í†µ","PUS1 Meeting Room"
+"Dinner with TP in PUS1","2023-1-11","¿ÀÈÄ 6:00:00","2023-1-11","¿ÀÈÄ 7:00:00","False","True","2023-1-11","¿ÀÈÄ 5:45:00","PUS1 Ops Calendar","Thiam Poh Goh;Peter Ham;Chulho Hyun;PUS1 Ops;BongYong Han;KhaRam Lee;SooChang Park;Younghoon Choi",,,,,,"Dinner with TP and PUS1 ops team.
+ 
+","False","3","ì¤‘ê°„","ë³´í†µ",""
+"seunghwan PTO(afternoon)","2023-1-4","¿ÀÀü 12:00:00","2023-1-5","¿ÀÀü 12:00:00","True","True","2023-1-3","¿ÀÀü 6:00:00","PUS1 Ops Calendar",,,,,,,,"False","3","ì¤‘ê°„","ë³´í†µ",""
