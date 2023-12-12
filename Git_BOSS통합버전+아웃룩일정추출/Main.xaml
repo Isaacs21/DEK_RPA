@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="2151.2,22436.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:bw="clr-namespace:BalaReva.Word;assembly=BalaReva.Word.Activities" xmlns:bwp="clr-namespace:BalaReva.Word.Pages;assembly=BalaReva.Word.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="2314.4,28792.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:bw="clr-namespace:BalaReva.Word;assembly=BalaReva.Word.Activities" xmlns:bwp="clr-namespace:BalaReva.Word.Pages;assembly=BalaReva.Word.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabf="clr-namespace:UiPath.Mail.Activities.Business.ForEachMail;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="96">
       <x:String>System.Activities</x:String>
@@ -146,7 +146,7 @@
       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="833.6,22372" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="833.6,28728" sap2010:WorkflowViewState.IdRef="SequenceX_1">
     <ueab:SequenceX.Variables>
       <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;AutoSummaryTable.xlsm&quot;,visible:=True,autoSave:=True,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="ShipmentSummary" />
       <Variable x:TypeArguments="sd:DataTable" Name="BOSS_Shipment추출" />
@@ -157,13 +157,14 @@
       <Variable x:TypeArguments="ui:WorkbookApplication" Name="Outlook_Sendmail" />
       <Variable x:TypeArguments="x:String" Name="SetButton" />
       <Variable x:TypeArguments="x:String" Name="outlookpath" />
+      <Variable x:TypeArguments="x:Object" Name="TempDate" />
     </ueab:SequenceX.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Login | Digital Edge" sap:VirtualizedContainerService.HintSize="790.4,11856" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="612ae9e1-ae99-429d-bf08-e6091142199e" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Login | Digital Edge" sap:VirtualizedContainerService.HintSize="790.4,12137.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="612ae9e1-ae99-429d-bf08-e6091142199e" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -174,7 +175,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="756.8,11639.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="756.8,11920.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -425,7 +426,7 @@
               </uix:NExtractData.Target>
             </uix:NExtractData>
             <ui:WriteCsvFile AddHeaders="False" DataTable="[BOSS_Incident]" Delimitator="Comma" DisplayName="Write CSV" FilePath="BOSS_Data\BOSS_Incident.csv" sap:VirtualizedContainerService.HintSize="713.6,155.2" sap2010:WorkflowViewState.IdRef="WriteCsvFile_5" ShouldQuote="True" />
-            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="713.6,5715.2" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="713.6,5996.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
               <ueab:ExcelApplicationCard.Body>
                 <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                   <ActivityAction.Argument>
@@ -436,7 +437,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="680,5445.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="680,5727.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -585,7 +586,7 @@
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <bwp:Paste GoToPageLineNo="{x:Null}" BookMark="Incident" ContinueOnError="False" Delay="3" ExecutionResult="[ClipboardX.BooleanValue]" GoTo="Bookmark" sap:VirtualizedContainerService.HintSize="256.8,24.8" sap2010:WorkflowViewState.IdRef="Paste_1" />
+                            <bwp:Paste GoToPageLineNo="{x:Null}" BookMark="Incident" ContinueOnError="False" Delay="3" ExecutionResult="[ClipboardX.BooleanValue]" GoTo="Bookmark" sap:VirtualizedContainerService.HintSize="256.8,24.8" sap2010:WorkflowViewState.IdRef="Paste_6" />
                             <bwp:FindReplace ExecutionResult="{x:Null}" ContinueOnError="False" Delay="3" DisplayName="Find Replace" FindOption="Whole" FindText="　" sap:VirtualizedContainerService.HintSize="256.8,24.8" sap2010:WorkflowViewState.IdRef="FindReplace_1" MatchCase="False" ReplaceOption="ReplaceAll">
                               <bwp:FindReplace.ReplaceText>
                                 <InArgument x:TypeArguments="x:String">
@@ -672,6 +673,7 @@
                         </ActivityAction>
                       </bw:WordScope.Body>
                     </bw:WordScope>
+                    <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="636.8,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_7" PasteOptions="All" SourceRange="[Excel.Sheet(&quot;Temp&amp;Hum_Summary&quot;).Range(&quot;A1:M5&quot;)]" Transpose="False" />
                   </Sequence>
                 </ActivityAction>
               </ueab:ExcelApplicationCard.Body>
@@ -846,7 +848,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable CvElementArea="222, 99, 286, 30" CvTextArea="223, 102, 278, 20" CvTextArgument="3ital Edgew&amp;AIWPUS1_RX|H$28.xlsx" CvType="InputBox" DesignTimeRectangle="223, 99, 286, 30" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'C:\Users\IsaacShin\OneD…'" FullSelectorArgument="&lt;wnd cls='#32770' title='파일로 내보내기' /&gt;&lt;wnd ctrlid='12037' /&gt;" FuzzySelectorArgument="&lt;wnd cls='#32770' title='파일로 내보내기' /&gt;&lt;wnd ctrlid='12037' /&gt;" Guid="7365f706-a029-4fdf-ac2c-60e1e76e9267" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAASIAAAAiCAYAAAD7ydQCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAaFSURBVHhe7ZnLcSNHDIYZi8573aOC0EVXZcAq5aANQGdnIJf34ixctbFYGYwH/SIa/QPd8yBHXANV30EcDBqv/sm1T5+fn5PjOM6RuBA5jnM4RYj+/Otvx3GcmwKFyM3Nze1W5kLk5uZ2uJlC9Mc//zqO4+yGZi5EjuPcDM1ciBzHuRmauRDdK+8v0+nbj+kNPXMW8fb6fXp4/QWffVm2zP/A3dHsUCE6P52uswBf4pL+mp6/nabTyaCXo1XH/1GIqGbQx8d34Gv4R75Pzz+jny5EH9Mj82v4+WN6OL1MZ/SsgWKN+s7I3OWs0fyterkveneQrXdWs9VCRAmdnj7gs1FGiqIlMZuK2NBoCC1cFU8uKFrYKETmJdlSh3y2MEfYVzFPaz5o/uEzFg/XjnrVJ+aLLjLFa3NpMETjJkJE81J7UoNqDZ/x+fb2Z8nuLGDkzlpotp8QrShupKgwgKWCt6HRGFpIthhhAdlSwYW8sRAtzLHta/oFx2Ja85Hzb/aB4j3x/PgvxKVCtIMgGD5XF6I8i6d5Zl1/bW/E5539QWJW2HA/Ru6shWarhahhRXH3I0S0BGwh5/gP898ld3ietlCJkRzJZ3iZluUI+xouzCXGuBB1LuzM5by+b8sOgmD00haiLJ4a9rmhTzz3JEr6Tu8hRJe8s3/Mg9HbPYWRO2uhmSlEVdLGIjdFlibH5l2e1UMbKWpEiIJPPgPkuspHLD7lmodKfo+v80LlvChWk6OsHSDOl8S+XvJo+izeX5JjqLXJub7w1nxCLuX9JeKyxPdCrB1d+nTpmlpq8mzbCx6f6UJk5KoJIPU6zQid1/OJudZxw2d83mB/M6FX9Ex8sRSMd9HZfNbtTqT+s1qsGJqZQlQCZRVnyYfD+PBBcW+vL1UTeEH5761C1BSt5Triw/MPi8Lemf/OuZ6faLjzAJI/vdurYznxEjzMYgZjo2VakGOoV/ZVXCxrPnKWsccjAtO53BZhJvO5AvWyF+KXAv1CRLukz6+Tq+jXrshawaybz7Io8M9TnKpH8N1M6lXuh/CtdyKex2Of5y+/NyOGZqYQ5eBEWDSWULPIZnEJsyhMXHA2EKKcixelznWtT2zm4/vAL5vCC3t/GyU/bdlFL5fkSLGa+aWl4vNYIkQByomdUT0r4HlcldIrfRdwnbEnbQ85VxKiFcCZEGGHWN29u1p2ru1XK0TKLJUYmg0LkUy+WWSluODHB8d8hoUINZcYuaTDPixHRt301Nj0XvzVQULF45MfjqUj8qPc2PBgD2C/R3MEc5mRs1gsRPwZiBehHJXlbdihl/I80DfqRW8PI7m/6Flmj5wH4zTzHwTuTk3ej95OlD0Cu4BiaHZFIUqNNHy+lhD1Fowu87zQ77Nvyodye3yf66zq1qB+DFxAymvum/znRnPxm34T4zmafU1YPt3ZhZ6iegf7AED50Gd6HnEH5XPZSzsGh+L19kRjy7sAOP+aUCfdQUH/n7Kp17Mv6h3qVTlL9FXG0GxYiMJBrPBmKWRjwoWqGx/eYT5aUZzmHI6y7FWuIz6Dl4Peof8FW3Kea3ygv2F+MubIGfGfgdqiVP1SFnE0R7OvGeWMXp4Rrd6xXiNQzvSZtkNVv4xnVowayv1WQkT+6XJrwNmwd9W91J4lyhcz+dazsnpa3TUlhmamEJUig6jUhTdLEXxYo6UAhL/rGGZRid6FoRjVQOji0X+UFOdIH1lP8BGLcp4vsBRSil0uYKoJ1yCH2A51E4pIjObY62sEL23TTzpD+IT4IL8tfUA5h3qHRESnjZHqXkS9Ky0Us+fDWerPUHajEHaCxQ5/55nEL5ncDznH+s5+TM+8byWuHkMzU4hKk2n4orh2KeLhxT/75Bj0rohRF4WpYhT4IrNzCZDrmE8WowvNNz69Uy1HXFj8y2D9hRsC5F8+H8ixnZ+G6B2B3gvnMh+UW2B9X1DO9Flvh3rsEaPPUmFZ6s+JM8fzBc+YEDVfMnn+yV/e2fp+9mNoZgpRPqwcCAu7T65fTxq4yQah0oToNwbNbA8R2SNGnzVChHaGY++P/GLN4C/O26DZsBBJJbx3frd67hf9wmF/557RbEiIwjfR6p+Jx4P+W8891+M494pmphBdvp3u/dLKb10XIcc5As1MIXJzc3O7hbkQubm5HW4uRG5uboebC5Gbm9vh5kLk5uZ2uLkQubm5HW6qEDmO49ySRogcx3GOwoXIcZyD+Zz+A687tWbrpYO9AAAAAElFTkSuQmCC" InformativeScreenshot="9747277fa14270e50d84e849f77cf135.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='outlook.exe' cls='#32770' title='파일로 내보내기' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="225, 66, 293, 25" ElementType="Text" FriendlyName="'내보낸 파일 저장 형식(&amp;S)'" FullSelectorArgument="&lt;wnd cls='#32770' title='파일로 내보내기' /&gt;&lt;wnd aaname='내보낸 파일 저장 형식(S):' cls='Static' title='내보낸 파일 저장 형식(&amp;amp;S):' /&gt;" FuzzySelectorArgument="&lt;wnd cls='#32770' title='파일로 내보내기' /&gt;&lt;wnd aaname='내보낸 파일 저장 형식(S):' cls='Static' title='내보낸 파일 저장 형식(&amp;amp;S):' check:text='내보낸 파일 저장 형식(&amp;amp;S):' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAASkAAAAdCAYAAAD2BZqNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAOrSURBVHhe7ZnhkYQgDEZtyn6sxmbsxVq2A05gVQgJAVZvWPf78WbuYCEBzFu8G16vlwEAgF6BpAAAXQNJAQC6BpICAHQNJAUA6JoKSS1mGiaz2J/X2Yz7z7cTxF0mM4yzWZPPtBDM28KlubzMOo9mmBa2L0/jOnL5276mXPw6xnll+wBogUjKPvCjmdewLezTJJUbvyGOW808DmZaaLsliFskBj/XMMj4OEpx21jhOBq3VFJ0nogzPicp18aO2zhiK+uQyOVv+3KSyoyFpMDVPFBSpcjF7eUQ97m2MHZLLpkbKCepELlfXkeMLu9DLjdJiu7hMsXx9/N37ZedM/h2nispGsv+Ho2VilvKhbT/s6TkwpXW8QGKpKhsaB8rKbJfbj1RjG1/p7gfNzJguUFS5zcjT40YLEHcTySVjJWK+0ZJ2TFsTE1S+75yZxPueeYLYsfty/75Ny6uX1/cxox3n9tEJJwXLyk/5szN5qzlKp0P+DW+5CYVFM/tknoLg/Qlt4cGSfl5z/2hrzuSGI5bBRtTXkcKfz7JrcbGEXI5JcTHZSXF7r0mKXKbcuepjwHPo1JSYVFxhaE8fM2Seo+pEQMnqajw4vWwhRX0J3FrcnH428Q08TcmJ7Ck3e9L2J7IMtwfFb9mus+lkkpyZM6Tk1QkmzduLk06YR6Q1M/S1ese/9kgbo0YiiTF5XITR+583FRSfk8SeVrsXMcctetgzsjFJWcQ5cKIbIfIQ5IU+wXk1mHjCfnbuau+CMATuVhSlNoC4gjmqJEUjV0tKdsfFC1HVS5xIdOC59rK0NbRQLJXn+Dlx9+SPU6A234mQoakwAYjKVKIDlsEQTHcJqm4mM+29xwlkjq+nXPYGLW5EYqFyd+I6CuQKilpXc0ysetn5tsoEUqOeK26pBzkRna0QVI/D5FUjqCo/1VSd6HlJhfxQUEBURmdxMWbk5QTgxAr1yfizk8Sh183n7OO9Lqnz8ec/aU3OvCtXCSpgoJO4ATBPKi3EayHReu/FllS2p7U71nRra3xBsNJKpGNfX5IfJcTiRnJzT1z//VsgJ64+SZVS33BtaNJSOu/lpw43G1JyOUbblLsudLX12QNZP8hqZ+lQ0kFD66A+veNIkgRJJTkcl3RFN1uuBxyY7JI6/tsTbykCtZHKHtFBL9AhaQA+AT+HwgcTbdD8FggKQBA10BSAICugaQAAF0DSQEAugaSAgB0DSQFAOgaSAoA0DWQFACgayApAEDHvMwfGQn668sY0BoAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -974,6 +976,754 @@
                   </Sequence>
                 </ActivityAction>
               </bw:WordScope.Body>
+            </bw:WordScope>
+          </Sequence>
+        </ActivityAction>
+      </ueab:ExcelApplicationCard.Body>
+    </ueab:ExcelApplicationCard>
+    <umab:OutlookApplicationCard Account="isaac.shin@digitaledgedc.com" AccountMismatchBehavior="UseDefaultEmailAccount" sap2010:Annotation.AnnotationText="BMS온.습도 자동첨부메일 다운로드 및 서머리테이블 생성" DisplayName="Use Desktop Outlook App" sap:VirtualizedContainerService.HintSize="790.4,1397.6" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_1">
+      <umab:OutlookApplicationCard.Body>
+        <ActivityAction x:TypeArguments="um:IMailQuickHandle">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="um:IMailQuickHandle" Name="Outlook" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="553.6,1184.8" sap2010:WorkflowViewState.IdRef="Sequence_30">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <umab:ForEachEmailX DisplayName="For Each Email" sap:VirtualizedContainerService.HintSize="510.4,480" sap2010:WorkflowViewState.IdRef="ForEachEmailX_1" IncludeSubfolders="True" Mails="[Outlook.Folder(&quot;Inbox&quot;)]" NumberOfEmailsLimit="50" RetrieveAttachments="False" UnreadOnly="False" WithAttachmentsOnly="False">
+              <umab:ForEachEmailX.Body>
+                <ActivityAction x:TypeArguments="snm:MailMessage, x:Int32">
+                  <ActivityAction.Argument1>
+                    <DelegateInArgument x:TypeArguments="snm:MailMessage" Name="CurrentMail" />
+                  </ActivityAction.Argument1>
+                  <ActivityAction.Argument2>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                  </ActivityAction.Argument2>
+                  <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,224" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <umab:MoveMailX DisplayName="Move Email" sap:VirtualizedContainerService.HintSize="433.6,134.4" sap2010:WorkflowViewState.IdRef="MoveMailX_1" MailFolder="BMS_Report" MailMessage="[CurrentMail]" />
+                  </Sequence>
+                </ActivityAction>
+              </umab:ForEachEmailX.Body>
+              <umab:ForEachEmailX.MailFilter>
+                <umabf:MailFilterArgument LogicalOperator="And">
+                  <umabf:MailFilterArgument.Filters>
+                    <scg:List x:TypeArguments="umabf:SingleMailFilterArgument" Capacity="1">
+                      <umabf:SingleMailFilterArgument DateEqualsFilter="{x:Null}" Criteria="Subject" DateFilter="SevenDays" Operator="Contains" Value="Liz" />
+                    </scg:List>
+                  </umabf:MailFilterArgument.Filters>
+                </umabf:MailFilterArgument>
+              </umab:ForEachEmailX.MailFilter>
+            </umab:ForEachEmailX>
+            <umab:ForEachEmailX DisplayName="For Each Email" sap:VirtualizedContainerService.HintSize="510.4,575.2" sap2010:WorkflowViewState.IdRef="ForEachEmailX_2" IncludeSubfolders="False" Mails="[Outlook.Folder(&quot;BMS_Report&quot;)]" NumberOfEmailsLimit="50" UnreadOnly="False" WithAttachmentsOnly="False">
+              <umab:ForEachEmailX.Body>
+                <ActivityAction x:TypeArguments="snm:MailMessage, x:Int32">
+                  <ActivityAction.Argument1>
+                    <DelegateInArgument x:TypeArguments="snm:MailMessage" Name="BMS_Report" />
+                  </ActivityAction.Argument1>
+                  <ActivityAction.Argument2>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                  </ActivityAction.Argument2>
+                  <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,319.2" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <umab:SaveMailAttachmentsX Attachments="{x:Null}" DisplayName="Save Email Attachments" ExcludeInlineAttachments="True" Filter="*.xlsx" FolderPath="[string.Format(&quot;{0}\BMS_Report&quot;, System.IO.Directory.GetCurrentDirectory())]" sap:VirtualizedContainerService.HintSize="433.6,229.6" sap2010:WorkflowViewState.IdRef="SaveMailAttachmentsX_1" Message="[BMS_Report]" OverwriteExisting="False" />
+                  </Sequence>
+                </ActivityAction>
+              </umab:ForEachEmailX.Body>
+              <umab:ForEachEmailX.MailFilter>
+                <umabf:MailFilterArgument LogicalOperator="And">
+                  <umabf:MailFilterArgument.Filters>
+                    <scg:List x:TypeArguments="umabf:SingleMailFilterArgument" Capacity="1">
+                      <umabf:SingleMailFilterArgument DateEqualsFilter="{x:Null}" Criteria="Subject" DateFilter="SevenDays" Operator="Contains" Value="Liz" />
+                    </scg:List>
+                  </umabf:MailFilterArgument.Filters>
+                </umabf:MailFilterArgument>
+              </umab:ForEachEmailX.MailFilter>
+            </umab:ForEachEmailX>
+          </Sequence>
+        </ActivityAction>
+      </umab:OutlookApplicationCard.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </umab:OutlookApplicationCard>
+    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="790.4,3581.6" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_29" ResizeWindow="None" WorkbookPath="BMS_Report\월간 온습도_1_20231206_08_00_00.373.xlsx">
+      <ueab:ExcelApplicationCard.Body>
+        <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+          </ActivityAction.Argument>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="636.8,3312" sap2010:WorkflowViewState.IdRef="Sequence_70">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="593.6,844.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_4" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+              <ueab:ExcelApplicationCard.Body>
+                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                  </ActivityAction.Argument>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="486.4,575.2" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;B1&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="443.2,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_8" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;B1&quot;)]" Transpose="True" />
+                    <ueab:ReadCellValueX sap2010:Annotation.AnnotationText="스위치문에 필요한 인풋키값: AutoSummary엑셀파일 Temp&amp;Hum_Download시트의 M1키값을 가져온다." Cell="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Cell(&quot;M1&quot;)]" DisplayName="Read Cell Value" GetFormattedText="False" sap:VirtualizedContainerService.HintSize="443.2,204" sap2010:WorkflowViewState.IdRef="ReadCellValueX_1">
+                      <ueab:ReadCellValueX.SaveTo>
+                        <OutArgument x:TypeArguments="x:Object">[TempDate]</OutArgument>
+                      </ueab:ReadCellValueX.SaveTo>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ueab:ReadCellValueX>
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExcelApplicationCard.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ueab:ExcelApplicationCard>
+            <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[UiPathObjectExtensions.AsText(TempDate)]" sap:VirtualizedContainerService.HintSize="593.6,2337.6" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+              <Switch.Default>
+                <Sequence DisplayName="그룹" sap:VirtualizedContainerService.HintSize="300,82.4" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </Switch.Default>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Sequence x:Key="1" sap:VirtualizedContainerService.HintSize="553.6,1894.4" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_9" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H5:J45&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_5" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H5:J45&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_10" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_11" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H52:J93&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_6" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H50:J90&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_12" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+              </Sequence>
+              <Sequence x:Key="2" sap:VirtualizedContainerService.HintSize="553.6,1894.4" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_13" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H5:J45&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_7" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H174:J214&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_14" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_15" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H52:J92&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_8" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H219:J259&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_16" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+              </Sequence>
+              <Sequence x:Key="3" sap:VirtualizedContainerService.HintSize="553.6,1894.4" sap2010:WorkflowViewState.IdRef="Sequence_41">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_17" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H5:J45&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_9" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_39">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H343:J383&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_18" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_19" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H52:J92&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_10" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H388:J428&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_20" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+              </Sequence>
+              <Sequence x:Key="4" sap:VirtualizedContainerService.HintSize="553.6,1894.4" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_21" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H5:J45&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_11" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_42">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H557:J597&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_22" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_23" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H52:J92&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_12" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H557:J597&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_24" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+              </Sequence>
+              <Sequence x:Key="5" sap:VirtualizedContainerService.HintSize="553.6,1894.4" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_25" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H5:J45&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_13" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_45">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H681:J721&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_26" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_27" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H52:J92&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_14" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_46">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H726:J766&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_28" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+              </Sequence>
+              <Sequence x:Key="6" sap:VirtualizedContainerService.HintSize="553.6,1894.4" sap2010:WorkflowViewState.IdRef="Sequence_50">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_29" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H5:J45&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_15" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_48">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H850:J890&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_30" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_31" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H52:J92&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_16" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_49">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H895:J935&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_32" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+              </Sequence>
+              <Sequence x:Key="7" sap:VirtualizedContainerService.HintSize="553.6,1894.4" sap2010:WorkflowViewState.IdRef="Sequence_53">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_33" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H5:J45&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_17" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_51">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H1019:J1059&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_34" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ueab:CopyPasteRangeX>
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ueab:ExcelApplicationCard>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_35" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H52:J92&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_18" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_52">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H1064:J1104&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_36" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+              </Sequence>
+              <Sequence x:Key="8" sap:VirtualizedContainerService.HintSize="553.6,1894.4" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_37" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H5:J45&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_19" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_54">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H1188:J1228&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_38" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_39" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H52:J92&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_20" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_55">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H1233:J1273&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_40" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+              </Sequence>
+              <Sequence x:Key="9" sap:VirtualizedContainerService.HintSize="553.6,1894.4" sap2010:WorkflowViewState.IdRef="Sequence_59">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_41" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H5:J45&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_21" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H1357:J1397&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_42" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_43" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H52:J92&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_22" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H1402:J1442&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_44" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+              </Sequence>
+              <Sequence x:Key="10" sap:VirtualizedContainerService.HintSize="553.6,1894.4" sap2010:WorkflowViewState.IdRef="Sequence_62">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_45" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H5:J45&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_23" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_60">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H1526:J1566&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_46" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_47" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H52:J92&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_24" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_61">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H1571:J1611&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_48" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+              </Sequence>
+              <Sequence x:Key="11" sap:VirtualizedContainerService.HintSize="553.6,1894.4" sap2010:WorkflowViewState.IdRef="Sequence_65">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_49" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H5:J45&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_25" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_63">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H1695:J1735&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_50" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_51" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H52:J92&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_26" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_64">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H1740:J1780&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_52" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+              </Sequence>
+              <Sequence x:Key="12" sap:VirtualizedContainerService.HintSize="553.6,1894.4" sap2010:WorkflowViewState.IdRef="Sequence_68">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_53" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H5:J45&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_27" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_66">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H1864:J1904&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_54" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+                <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="510.4,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_55" PasteOptions="Values" SourceRange="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;H52:J92&quot;)]" Transpose="False" />
+                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="510.4,600.8" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_28" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+                  <ueab:ExcelApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,331.2" sap2010:WorkflowViewState.IdRef="Sequence_67">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ueab:CopyPasteRangeX DestinationRange="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Range(&quot;H1909:J1949&quot;)]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_56" PasteOptions="Values" SourceRange="[ExcelClipboardX.Value]" Transpose="True" />
+                      </Sequence>
+                    </ActivityAction>
+                  </ueab:ExcelApplicationCard.Body>
+                </ueab:ExcelApplicationCard>
+              </Sequence>
+            </Switch>
+          </Sequence>
+        </ActivityAction>
+      </ueab:ExcelApplicationCard.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ueab:ExcelApplicationCard>
+    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="790.4,975.2" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_30" ResizeWindow="None" WorkbookPath="AutoSummaryTable.xlsm">
+      <ueab:ExcelApplicationCard.Body>
+        <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel3" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="680,705.6" sap2010:WorkflowViewState.IdRef="Sequence_71">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ueab:CopyPasteRangeX DestinationRange="[ExcelClipboardX.Value]" DisplayName="Copy/Paste Range" sap:VirtualizedContainerService.HintSize="636.8,241.6" sap2010:WorkflowViewState.IdRef="CopyPasteRangeX_57" PasteOptions="All" SourceRange="[Excel3.Sheet(&quot;Temp&amp;Hum_Summary&quot;).Range(&quot;A1:M5&quot;)]" Transpose="False" />
+            <bw:WordScope ModifyPassword="{x:Null}" OpenPassword="{x:Null}" DisplayName="Word Application Scope" FilePath="[string.Format(&quot;{0}\DE Customer Monthly Report_Standard_with Power Consumption _v0.3(샘플).docx&quot;, System.IO.Directory.GetCurrentDirectory())]" sap:VirtualizedContainerService.HintSize="636.8,334.4" sap2010:WorkflowViewState.IdRef="WordScope_7">
+              <bw:WordScope.Body>
+                <ActivityAction x:TypeArguments="bw:WordObject">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="bw:WordObject" Name="WordObj" />
+                  </ActivityAction.Argument>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="300,179.2" sap2010:WorkflowViewState.IdRef="Sequence_69">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <bwp:Paste GoToPageLineNo="{x:Null}" BookMark="Temp_Humidity" ContinueOnError="False" Delay="3" ExecutionResult="[ClipboardX.BooleanValue]" GoTo="Bookmark" sap:VirtualizedContainerService.HintSize="256.8,24.8" sap2010:WorkflowViewState.IdRef="Paste_7">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </bwp:Paste>
+                    <bwp:FindReplace ExecutionResult="{x:Null}" ContinueOnError="False" Delay="3" DisplayName="Find Replace" FindOption="Whole" FindText="　" sap:VirtualizedContainerService.HintSize="256.8,24.8" sap2010:WorkflowViewState.IdRef="FindReplace_6" MatchCase="False" ReplaceOption="ReplaceAll">
+                      <bwp:FindReplace.ReplaceText>
+                        <InArgument x:TypeArguments="x:String">
+                          <Literal x:TypeArguments="x:String" Value="" />
+                        </InArgument>
+                      </bwp:FindReplace.ReplaceText>
+                    </bwp:FindReplace>
+                  </Sequence>
+                </ActivityAction>
+              </bw:WordScope.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
             </bw:WordScope>
           </Sequence>
         </ActivityAction>
