@@ -1,10 +1,14 @@
 ﻿​,Ticket ID,Ticket Name,Site Visit Date Start,Site Visit Date End,Severity Type,Customer,Assigned to,Ticket Sub-Type,Stage,Visitor name,Created on
 "unchecked
+​",16240,[PUS1-캡스텍](대흥기계)2/8,08-Feb-2024 09:20:00,08-Feb-2024 12:46:00,S-4,CAPSTEC,,,Completed,김종훈,08-Feb-2024 09:47:41
+"unchecked
+​",16173,[PUS1-캡스텍](캡스텍)2/8~2/22,08-Feb-2024 00:00:00,22-Feb-2024 23:00:00,S-4,CAPSTEC,,,In Progress,김재윤,07-Feb-2024 15:19:19
+"unchecked
 ​",16163,[PUS1-BNK](은하상사)2/7,07-Feb-2024 14:23:00,07-Feb-2024 15:23:00,S-4,CAPSTEC,,,Completed,지영돌,07-Feb-2024 14:26:16
 "unchecked
-​",16156,서버 점검 & 방화벽 교체,07-Feb-2024 23:30:00,08-Feb-2024 00:30:00,S-4,최희철 본부장,,,Approved,"최희철, 방창욱",07-Feb-2024 13:46:15
+​",16156,서버 점검 & 방화벽 교체,07-Feb-2024 23:30:00,08-Feb-2024 00:30:00,S-4,최희철 본부장,,,Completed,"최희철, 방창욱",07-Feb-2024 13:46:15
 "unchecked
-​",16143,[PUS1-BNK](센텀세탁소)02/7,07-Feb-2024 11:29:00,08-Feb-2024 23:30:00,S-4,CAPSTEC,,,In Progress,이규천,07-Feb-2024 11:31:47
+​",16143,[PUS1-BNK](센텀세탁소)02/7,07-Feb-2024 11:29:00,08-Feb-2024 23:30:00,S-4,CAPSTEC,,,Completed,이규천,07-Feb-2024 11:31:47
 "unchecked
 ​",16140,[PUS1-신비넷]SiteAccess(두드림)02/08,08-Feb-2024 14:00:00,08-Feb-2024 18:00:00,S-4,신비넷어드,,,Approved,정현용,07-Feb-2024 11:24:57
 "unchecked
@@ -154,9 +158,5 @@
 "unchecked
 ​",14980,[PUS1-DEK]SiteAccess(월드세기)1/23,23-Jan-2024 09:00:00,23-Jan-2024 17:00:00,S-4,DEK PUS1,,,Completed,민평식,23-Jan-2024 08:20:47
 "unchecked
-​",14938,[PUS1-캡스텍](캡스텍)1/24~2/7,24-Jan-2024 00:00:00,07-Feb-2024 18:00:00,S-4,CAPSTEC,,,In Progress,김재윤,22-Jan-2024 15:15:30
-"unchecked
-​",14929,PUS1 - Site access request / AIRTECH (1/30),30-Jan-2024 09:00:00,30-Jan-2024 18:00:00,S-4,김정수 매니저,,,Completed,"김의진, 정주식, 이정호, 김홍준, 정희준, 최진선",22-Jan-2024 14:33:19
-"unchecked
-​",14923,[BNK]효성1/22,22-Jan-2024 13:45:00,22-Jan-2024 15:45:00,S-4,정원준,,,Completed,강광성,22-Jan-2024 13:35:44
+​",14938,[PUS1-캡스텍](캡스텍)1/24~2/7,24-Jan-2024 00:00:00,07-Feb-2024 18:00:00,S-4,CAPSTEC,,,Completed,김재윤,22-Jan-2024 15:15:30
 ,,,,,,,,,,,
