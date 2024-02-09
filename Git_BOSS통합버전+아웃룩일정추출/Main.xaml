@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="917.6,38674.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:bw="clr-namespace:BalaReva.Word;assembly=BalaReva.Word.Activities" xmlns:bwp="clr-namespace:BalaReva.Word.Pages;assembly=BalaReva.Word.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabf="clr-namespace:UiPath.Mail.Activities.Business.ForEachMail;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="940,39049.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:bw="clr-namespace:BalaReva.Word;assembly=BalaReva.Word.Activities" xmlns:bwp="clr-namespace:BalaReva.Word.Pages;assembly=BalaReva.Word.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabf="clr-namespace:UiPath.Mail.Activities.Business.ForEachMail;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="96">
       <x:String>System.Activities</x:String>
@@ -148,7 +148,7 @@
       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="833.6,38609.6" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="833.6,38984.8" sap2010:WorkflowViewState.IdRef="SequenceX_1">
     <ueab:SequenceX.Variables>
       <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;AutoSummaryTable.xlsm&quot;,visible:=True,autoSave:=True,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="ShipmentSummary" />
       <Variable x:TypeArguments="sd:DataTable" Name="BOSS_Shipment추출" />
@@ -1106,7 +1106,7 @@
               </sap:WorkflowViewStateService.ViewState>
             </uix:NClick>
             <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="333.6,171.2" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(back)][u(hk)]" Version="V3" />
-            <uix:NTypeInto ActivateBefore="True" sap2010:Annotation.AnnotationText="입력값 변경시 아래+버튼클릭=&gt;텍스트창에서 입력값 변경하면 됨 추출할 스케줄 데이터 Start날짜 입력&#xD;&#xA;(ex: 24년01월부터=&gt; 2024-1-1)" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,284.8" sap2010:WorkflowViewState.IdRef="NTypeInto_6" Text="2023-1-1" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" sap2010:Annotation.AnnotationText="입력값 변경시 아래+버튼클릭=&gt;텍스트창에서 입력값 변경하면 됨 추출할 스케줄 데이터 Start날짜 입력&#xA;(ex: 24년01월부터=&gt; 2024-1-1)" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,284.8" sap2010:WorkflowViewState.IdRef="NTypeInto_6" Text="2023-1-1" Version="V3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -1125,7 +1125,7 @@
               </uix:NClick.Target>
             </uix:NClick>
             <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="333.6,171.2" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][k(back)][u(hk)]" Version="V3" />
-            <uix:NTypeInto ActivateBefore="True" sap2010:Annotation.AnnotationText="입력값 변경시 아래+버튼클릭=&gt;텍스트창에서 입력값 변경하면 됨 추출할 스케줄 데이터 End날짜 입력&#xD;&#xA;(ex: 24년02월까지=&gt; 2024-2-28)" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,284.8" sap2010:WorkflowViewState.IdRef="NTypeInto_7" Text="2023-12-31" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" sap2010:Annotation.AnnotationText="입력값 변경시 아래+버튼클릭=&gt;텍스트창에서 입력값 변경하면 됨 추출할 스케줄 데이터 End날짜 입력&#xA;(ex: 24년02월까지=&gt; 2024-2-28)" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="333.6,284.8" sap2010:WorkflowViewState.IdRef="NTypeInto_7" Text="2023-12-31" Version="V3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -1157,13 +1157,18 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" sap2010:Annotation.AnnotationText="아웃룩에서 가져온 스케줄데이터를 가공처리, Summary테이블을 만들기위한 Maintenance템플릿 실행" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="790.4,1864" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" WorkbookPath="Maintenance_Summary.xlsx">
+    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" sap2010:Annotation.AnnotationText="아웃룩에서 가져온 스케줄데이터를 가공처리, Summary테이블을 만들기위한 Maintenance템플릿 실행" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="790.4,2174.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" WorkbookPath="Maintenance_Summary.xlsm">
       <ueab:ExcelApplicationCard.Body>
         <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel2" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="680,1563.2" sap2010:WorkflowViewState.IdRef="Sequence_14">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="680,1873.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1184,7 +1189,25 @@
               </sap:WorkflowViewStateService.ViewState>
             </ui:ReadCsvFile>
             <ueab:WriteRangeX Destination="[Excel2.Sheet(&quot;LawData&quot;).Range(&quot;A1:V2020&quot;)]" DisplayName="Write DataTable to Excel" sap:VirtualizedContainerService.HintSize="636.8,160" sap2010:WorkflowViewState.IdRef="WriteRangeX_1" IgnoreEmptySource="False" Source="[_out_ReadCsvFile_5__DataTable]" />
-            <ueab:WriteCellX sap2010:Annotation.AnnotationText="데이터 추출할 연도 및 기준월입력(ex: 23년12월 =&gt; 2312, &#xD;&#xA;24년2월 =&gt; 2402)  ==&gt; Maintenance LawData시트의 AM1에 값 입력됨" Cell="[Excel2.Sheet(&quot;LawData&quot;).Cell(&quot;AM1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="636.8,204" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[string.Format(&quot;02&quot;)]">
+            <ueab:ExecuteMacroX Result="{x:Null}" DisplayName="Run Spreadsheet Macro" sap:VirtualizedContainerService.HintSize="636.8,254.4" sap2010:WorkflowViewState.IdRef="ExecuteMacroX_1" MacroName="ConvertDate" Workbook="[Excel2]">
+              <ueab:ExecuteMacroX.Body>
+                <ActivityAction>
+                  <Sequence DisplayName="실행" sap2010:WorkflowViewState.IdRef="Sequence_96">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExecuteMacroX.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ueab:ExecuteMacroX>
+            <ueab:WriteCellX sap2010:Annotation.AnnotationText="데이터 추출할 연도 및 기준월입력(ex: 23년12월 =&gt; 2312, &#xA;24년2월 =&gt; 2402)  ==&gt; Maintenance LawData시트의 AM1에 값 입력됨&#xD;&#xA;(아래 +버튼클릭 후 텍스트입력창에서 입력)" Cell="[Excel2.Sheet(&quot;LawData&quot;).Cell(&quot;AM1&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="636.8,220" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[string.Format(&quot;2312&quot;)]">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -1222,6 +1245,7 @@
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ueab:ExcelApplicationCard>
@@ -1391,7 +1415,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ueab:CopyPasteRangeX>
-                    <ueab:WriteCellX sap2010:Annotation.AnnotationText="고객사명 입력하기: 고객사명 변경시=&gt; 아래 +버튼클릭 &#xD;&#xA;=&gt; 텍스트 입력창에서 고객사명 입력" Cell="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Cell(&quot;B2&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="521.6,204" sap2010:WorkflowViewState.IdRef="WriteCellX_6" Value="[string.Format(&quot;GS ITM&quot;)]">
+                    <ueab:WriteCellX sap2010:Annotation.AnnotationText="고객사명 입력하기: 고객사명 변경시=&gt; 아래 +버튼클릭 &#xA;=&gt; 텍스트 입력창에서 고객사명 입력" Cell="[Excel2.Sheet(&quot;Temp&amp;Hum_Download&quot;).Cell(&quot;B2&quot;)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="521.6,204" sap2010:WorkflowViewState.IdRef="WriteCellX_6" Value="[string.Format(&quot;GS ITM&quot;)]">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -2189,7 +2213,7 @@
         </Sequence>
       </ui:CommentOut.Body>
     </ui:CommentOut>
-    <ueab:ExcelApplicationCard Password="{x:Null}" sap2010:Annotation.AnnotationText="전력서머리테이블 복붙알고리즘 BMS알림메일로 받은 전력리포트파일을 불러와서 AutoSummaryTable엑셀 템플릿에서 가공처리, SummaryTable 만드는 단계" AutoSave="False" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="790.4,1325.6" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_33" ReadFormatting="Default" ResizeWindow="None" WorkbookPath="BMS_템플릿\2. 월간 IDC 분전반 전류측정_templete-240119-rev4.6.1.xlsx">
+    <ueab:ExcelApplicationCard Password="{x:Null}" sap2010:Annotation.AnnotationText="전력서머리테이블 복붙알고리즘 BMS알림메일로 받은 전력리포트파일을 불러와서 AutoSummaryTable엑셀 템플릿에서 가공처리, SummaryTable 만드는 단계" AutoSave="False" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="790.4,1325.6" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_33" ReadFormatting="Default" ResizeWindow="None" WorkbookPath="BMS_Report\2. 월간 IDC 분전반 전류측정 Report_20240208_16_44_37.839.xlsx">
       <ueab:ExcelApplicationCard.Body>
         <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
           <ActivityAction.Argument>
@@ -2272,7 +2296,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ueab:ExcelApplicationCard>
-    <uix:NApplicationCard sap2010:Annotation.AnnotationText="업로드된 SLA데이터를 가져오기 위해 쉐어포인트 특정 폴더URL접속&#xD;&#xA;(SLA Summary생성 단계)&#xA;" AttachMode="ByInstance" DisplayName="Use Browser Edge: Korea Operations - SLA - 모든 문서" sap:VirtualizedContainerService.HintSize="790.4,1304" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" ScopeGuid="ccf5f4d8-f98f-4482-8e7b-397bb6881857" Version="V2">
+    <uix:NApplicationCard sap2010:Annotation.AnnotationText="업로드된 SLA데이터를 가져오기 위해 쉐어포인트 특정 폴더URL접속&#xA;(SLA Summary생성 단계)&#xA;" AttachMode="ByInstance" DisplayName="Use Browser Edge: Korea Operations - SLA - 모든 문서" sap:VirtualizedContainerService.HintSize="790.4,1400" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" ScopeGuid="ccf5f4d8-f98f-4482-8e7b-397bb6881857" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -2283,12 +2307,19 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,1027.2" sap2010:WorkflowViewState.IdRef="Sequence_84">
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="476.8,1123.2" sap2010:WorkflowViewState.IdRef="Sequence_84">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <ui:MaximizeWindow Window="{x:Null}" sap2010:Annotation.AnnotationText="쉐어포인트 창 최대화" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="433.6,56" sap2010:WorkflowViewState.IdRef="MaximizeWindow_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:MaximizeWindow>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SLASLA'" sap:VirtualizedContainerService.HintSize="433.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_54" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ccf5f4d8-f98f-4482-8e7b-397bb6881857" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://digitaledgeasia.sharepoint.com/sites/kr-ops/DEKR%20OPS%20only/Forms/AllItems.aspx?newTargetListUrl=%2Fsites%2Fkr%2Dops%2FDEKR%20OPS%20only&amp;viewpath=%2Fsites%2Fkr%2Dops%2FDEKR%20OPS%20only%2FForms%2FAllItems%2Easpx&amp;id=%2Fsites%2Fkr%2Dops%2FDEKR%20OPS%20only%2F002%2E%20PUS1%20OPS%2F200%2E%20Operations%2F207%2E%20RPA%2FDevelopment%5FData%2FSLA&amp;viewid=9cd27cc0%2D7b5f%2D471e%2Da149%2D62eae7b52f3d" DesignTimeRectangle="399, 680, 60, 53" DesignTimeScaleFactor="1.25" ElementType="CheckBox" FriendlyName="''" FullSelectorArgument="&lt;webctrl aria-label='SLA_Report.xlsx' aria-role='checkbox' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='SLA_Report.xlsx' aria-role='checkbox' tag='DIV' type='' class='ms-DetailsRow-check ms-Check-checkHost check-139' aaname='' check:innerText='&amp;#xD;&amp;#xA;' /&gt;" Guid="c6d3a75d-fa02-430f-ac15-a42fe4115cc6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADoAAAAzCAYAAADGtBvgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABjSURBVGhD7dqxDYBADARB+u8WKMBkRF/BeEdyAatLfc0Sf+j73PTtW1RXqKZQTaGaQjWFagrVFKopVFOoplBNoZpCNYVqCtUUqilUU6imUE2hmkI1hWoK1ewLPf24Srdk0ZkP9WX7XBhnTqgAAAAASUVORK5CYII=" InformativeScreenshot="75e1a646ee8a0e1bff768b31204502d5.png" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='{}' title='Korea Operations - SLA - 모든 문서' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
@@ -2442,7 +2473,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:MessageBox>
-    <If Condition="[SetButton = string.Format(&quot;Ok&quot;)]" sap:VirtualizedContainerService.HintSize="790.4,2943.2" sap2010:WorkflowViewState.IdRef="If_2">
+    <If Condition="[SetButton = string.Format(&quot;Ok&quot;)]" sap:VirtualizedContainerService.HintSize="790.4,2912" sap2010:WorkflowViewState.IdRef="If_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
